@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 
 :root {
-    --bg-main: #0f172a;
+    --bg-main: #c6defe;
     --bg-secondary: #6a2a9f;
     --text-light: #fff;
     --text-dark: #52057b;
@@ -23,12 +23,12 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #000;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 nav {
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover, nav a.active {
-    color: #f0a500;
+    color: #fdba2a;
 }
 
 nav a.active::after {
@@ -86,7 +86,7 @@ main {
 .about img {
     width: 250px;
     border-radius: 12px;
-    box-shadow: 0 0 8px #ccc;
+    box-shadow: 0 0 8px #fff;
     flex-shrink: 0;
 }
 
@@ -121,6 +121,7 @@ main {
 section#projetos {
     margin-top: 4rem;
     text-align: center;
+    color:#000
 }
 
 section#projetos h2 {
@@ -211,6 +212,7 @@ section#certificacoes h2 {
     text-align: center;
     padding-top: 2rem;
     margin-bottom: 2rem;
+    
 }
 
 .cert-grid {
@@ -218,6 +220,7 @@ section#certificacoes h2 {
     grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
     gap: 20px;
     padding: 0 1.5rem 3rem;
+    
 }
 
 .cert-card {
@@ -248,15 +251,16 @@ section#certificacoes h2 {
 }
 
 .cert-card h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif; 
     font-size: 1.2rem;
     margin-bottom: 0.4rem;
+    color:#000
 }
 
 .cert-card p {
     margin-bottom: 1rem;
     font-size: 0.9rem;
-    color: #ccc;
+    color: #000;
     min-height: 40px;
     display: flex;
     align-items: center;
@@ -369,6 +373,7 @@ section#certificacoes h2 {
     
     /* Oculta a barra de rolagem horizontal */
     scrollbar-width: none; 
+    
 }
 /* Oculta a barra de rolagem em navegadores Webkit (Chrome, Safari) */
 .carousel-track-container::-webkit-scrollbar {
@@ -408,7 +413,7 @@ section#certificacoes h2 {
 }
 
 .carousel-button:hover {
-    background-color: #f0a500;
+    background-color: #ffc343;
 }
 
 .carousel-button.prev {
@@ -471,7 +476,7 @@ section#contato {
 
 .contact-header p {
     font-size: 1.1rem;
-    color: #ccc;
+    color: #000;
     max-width: 600px;
     margin: 0.5rem auto 0;
 }
@@ -482,6 +487,7 @@ section#contato {
     justify-content: center;
     gap: 20px;
     padding: 0 1.5rem 2rem;
+    
 }
 
 .card-link {
@@ -521,11 +527,12 @@ section#contato {
     font-size: 1.2rem;
     margin: 0 0 0.5rem;
     color: var(--text-light);
+    color:#000;
 }
 
 .card-rede p {
     font-size: 0.9rem;
-    color: #ccc;
+    color: #000;
     margin: 0;
 }
 
